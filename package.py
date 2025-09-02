@@ -14,7 +14,11 @@ class AccessOm2(BundlePackage):
 
     git = "https://github.com/ACCESS-NRI/ACCESS-OM2.git"
 
+<<<<<<< HEAD
     maintainers("harshula")
+=======
+    maintainers("micael")
+>>>>>>> 7903a54 (Use maintainers function instead of list. Update maintainer.)
 
     version("latest")
 
@@ -27,4 +31,3 @@ class AccessOm2(BundlePackage):
     depends_on("mom5+deterministic", when="+deterministic", type="run")
     depends_on("mom5~deterministic", when="~deterministic", type="run")
 
-    # There is no need for install() since there is no code.
