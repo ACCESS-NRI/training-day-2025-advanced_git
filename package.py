@@ -14,11 +14,7 @@ class AccessOm2(BundlePackage):
 
     git = "https://github.com/ACCESS-NRI/ACCESS-OM2.git"
 
-<<<<<<< HEAD
-    maintainers("harshula")
-=======
     maintainers("micael")
->>>>>>> 7903a54 (Use maintainers function instead of list. Update maintainer.)
 
     version("latest")
 
